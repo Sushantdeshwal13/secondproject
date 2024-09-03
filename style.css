@@ -1,0 +1,205 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.logo{
+    font-family: "Delius Unicase", cursive;
+}
+.search{
+    height:30px;
+    width:150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    color:black;
+    align-items: center;
+    margin-top:5px;
+}
+nav{
+    background-color: #6F6AF7;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    height:40px;
+    width:100vw;
+    position:fixed;
+    margin-top:-20px;
+}
+.fa-bars{
+    display: flex;
+    align-content: center;
+    height: 40px;
+    width:50px;
+}
+ul{
+    display:flex;
+    justify-content: space-between ;
+    list-style-type: none;
+    margin-top: 10px;
+}
+li{
+    display:flex;
+    justify-items: space-around;
+}
+input{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;;
+}
+.main{
+    margin-top: 30px;
+    margin: 20px 20px;
+    
+}
+.first{
+    display:flex;
+}
+.img{
+    height: 50vh;
+    width: 40vw;
+    margin: 30px;
+    box-shadow: 2px 2px 6px grey;
+    border-radius: 16px;
+}
+p{
+    margin-left:10px;
+    margin-top:8px;
+}
+.second{
+    height:50vh;
+    width: 60vw;
+    margin-top: 30px;
+    margin-right:20px;
+    border-radius:10px;
+    background-color: #E5D8FF;
+    display: flex;
+    justify-content: space-around;
+}
+.Cards{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    
+    height: 60px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow:2px 2px 6px grey;
+    
+}
+.one{
+    background-color: #929DFF;
+   color: white;
+   
+}
+.two{
+    background-color: #734CF2;
+    color:white;
+}
+.three{
+    background-color: #D288FF;
+    color:white;
+}
+.four{
+    background-color: #000000;
+    color:white;
+}
+
+.third{
+    background-color: #483EFF;
+    height:40vh;
+    width:86vw;
+    border-radius: 10px;
+    display:flex;
+    margin: 30px;
+    
+}
+.cart{
+    height:50px;
+    width:50px;
+    position:fixed;
+    background-color: white;
+    right:70px;
+    box-shadow: 2px 2px 4px grey;
+    border-radius:50%;
+}
+
+.socialmediaicons{
+    float: right;
+    position:sticky;
+    margin-top:-500px;
+   
+}
+.icons{
+    border:2px solid black;
+    display:flex;
+    height:40px;
+    width:40px;
+    margin:4px;
+    background-color: white; 
+   border-radius:8px;
+    
+
+}
+.right{
+    background-color: white;
+    width:58vw;
+    height: 35vh;
+    margin-left: 5vh;
+    margin-top: 20px;
+    border-radius:10px;
+    
+}
+.a, .b, .c{
+    border: 2px solid white;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    height: 50px;
+    width: 180px;
+    border-radius:5px;
+}
+.a{
+    background-color:#BCE0F6 ;
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.innertext{
+    margin-top: 30px;
+    margin-left: 150px;
+   
+}
+#btn {
+    position: absolute;
+    bottom: -60px;
+    right: 500px;
+    background-color: black;
+    color:white;
+    border-radius:2px;
+    height: 40px;
+    width:120px;
+  }
+/* .socialmedia{
+    position:fixed;
+    right:10px;
+    top:120px;
+    height: 300px;
+
+}
+.socialicons{
+    height:69px;
+    width:69px;
+    margin-bottom:3px;
+}
+.social{
+    top: 0px;
+    position:sticky;
+} */
